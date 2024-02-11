@@ -8,10 +8,55 @@ export default {
     extend: {
       colors: {
         "buttonBorder" : "#272B30",
-        "buttonColor" : "#1A1D1F"
+        "buttonColor" : "#1A1D1F",
+        "topNav":'#fcfcfc',//side bar and top nav share this color
+        "main":'#efefef'// also used for border color
 
 
       },
+
+      gridTemplateColumns: {
+        // Simple 16 column grid
+        'main': '300px 1fr',
+
+        
+      },
+      gridTemplateRows: {
+        // Simple 16 column grid
+        'up': '1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr',
+
+        
+      },
+
+      gridColumnStart: {
+        '1': '1',
+        '2': '2',
+        '3': '3',
+        '4': '4',
+        '5': '5',
+      },
+
+      gridColumnEnd: {
+        '1': '1',
+        '2': '2',
+        '3': '3',
+        '4': '4',
+        '5': '5',
+      },
+      gridRowStart: {
+        '1': '1',
+        '2': '2',
+        '3': '3',
+        '4': '4',
+        '5': '5',
+      },
+      gridRowEnd: {
+        '1': '1',
+        '2': '2',
+        '3': '3',
+        '4': '4',
+        '5': '5',
+      }
     },
   },
   plugins: [],

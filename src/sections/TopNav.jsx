@@ -4,7 +4,7 @@ import {iconButton} from "../assets/icons"
 
 const TopNav = () => {
   return (
-    <nav className="flex ontent-end">
+    <nav className="flex items-center ">
       <div className="w-7/10">
 
 
