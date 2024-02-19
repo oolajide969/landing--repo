@@ -6,11 +6,15 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        inter: ['Inter', 'sans-serif'],
+      },
       colors: {
         "buttonBorder" : "#272B30",
         "buttonColor" : "#1A1D1F",
-        "topNav":'#fcfcfc',//side bar and top nav share this color
-        "main":'#efefef'// also used for border color
+        "neutral":'#fcfcfc',//side bar and top nav share this color
+        "main":'#efefef',
+        "primary":"#2A85FF"// also used for border color
 
 
       },
